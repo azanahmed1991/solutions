@@ -1,0 +1,74 @@
+:root {
+  --primary-color: #21a5d5;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+header {
+  background-color: var(--primary-color);
+}
+.my-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  gap: 1rem;
+
+  color: white;
+  width: 70%;
+  margin: auto;
+}
+.h-left,
+.h-right,
+.hl-mail,
+.hr-address {
+  display: flex;
+}
+.h-left {
+  gap: 2rem;
+}
+.h-right,
+.hl-mail,
+.hr-address {
+  gap: 1rem;
+}
+
+.h-left i {
+  color: black;
+}
+.h-right i {
+  color: #3abbe2;
+  transition: all 0.3s;
+}
+.h-right i:hover {
+  color: lightgreen;
+  cursor: pointer;
+}
+nav {
+  padding: 0.3rem 0 0.2rem 0;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+.my-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  width: 70%;
+  margin: auto;
+  padding: 0rem 0rem 0rem 1.3rem;
+}
+.menu-items {
+  display: flex;
+  list-style: none;
+  gap: 1rem;
+}
+.btn1 {
+  background-color: var(--primary-color);
+  padding: 0.6rem 1.2rem;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  text-transform: uppercase;
+}
