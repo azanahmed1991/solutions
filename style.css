@@ -66,9 +66,136 @@ nav {
 }
 .btn1 {
   background-color: var(--primary-color);
-  padding: 0.6rem 1.2rem;
+  padding: 0.8rem 0.8rem;
   border: none;
-  border-radius: 10px;
+  border-radius: 20px;
   color: white;
   text-transform: uppercase;
+  transition: all 0.3s;
+}
+.btn1:hover {
+  background-color: black;
+  color: white;
+}
+.hero-section {
+  display: flex;
+  width: 70%;
+  margin: auto;
+  align-items: center;
+  padding: 0.5rem 2rem;
+  gap: 0.8rem;
+}
+.hero-left,
+.hero-right {
+  width: 50%;
+}
+.hero-left {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+.hero-left p {
+  font-size: 1.5rem;
+}
+.hero-left h1 {
+  font-size: 2.2rem;
+}
+.btn-hero {
+  align-self: start;
+}
+.solutions {
+  background-color: var(--primary-color);
+  color: white;
+  padding: 3rem;
+}
+.solutions p {
+  text-align: center;
+  font-size: 1.4rem;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+.s-icon {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5.5rem;
+  text-align: center;
+}
+.partner {
+  display: flex;
+  padding: 2rem;
+  gap: 1.5rem;
+  width: 70%;
+  margin: auto;
+}
+.p-left {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  width: 50%^;
+
+  justify-content: center;
+}
+.p-left p {
+  font-size: 1.5rem;
+  color: rgb(56, 55, 55);
+}
+.p-left h2 {
+  font-size: 2.5rem;
+}
+
+.p-right {
+  width: 50%;
+  gap: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.p-3-img {
+  display: flex;
+  width: 50%;
+}
+.p-2-img {
+  display: flex;
+  width: 50%;
+}
+.services {
+  background-color: var(--primary-color);
+  color: white;
+  padding: 2rem 0 0 0;
+}
+.services p {
+  text-align: center;
+  font-size: 2rem;
+}
+.s-cards {
+  width: 70%;
+  margin: auto;
+}
+.s-top,
+.s-down {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  text-align: center;
+  gap: 1.5rem;
+  padding: 2rem;
+}
+.s-top p,
+.s-down p {
+  font-size: 1.2rem;
+}
+.s-top-card,
+.s-down-card {
+  background-color: azure;
+  gap: 0.2rem;
+  border-radius: 20px;
+  padding: 1rem 0.7rem;
+
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
